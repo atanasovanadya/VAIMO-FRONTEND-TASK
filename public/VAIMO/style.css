@@ -1,0 +1,232 @@
+body {
+   min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+}
+
+#container{
+	position: relative;
+}
+
+#logo-cart{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#logo-cart-menu{
+	display: block;
+	flex-direction: row;
+}
+
+.fashion-photo{
+	width: 100%;
+
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+	top: 50%;
+	right: 0%;
+	left: 0%;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 100%;
+	margin: auto;
+	transform: translateY(-50%);
+}
+
+
+.big-letters{
+	font-weight: bolder;
+}
+
+
+.header{
+	background-color: #1FABB5;
+	color: #1FABB5;
+	width: 100%;
+	position: fixed;
+	margin-bottom: 100px;
+}
+
+#main-content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: auto;
+}
+
+.info-text{
+	padding-bottom: 40px;
+}
+
+.cart{
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: thin;
+	border-radius: 7px;
+	margin-top: 20px;
+}
+
+#favourites{
+	font-size: 30px;
+	background-color: white;
+
+}
+
+#div-favourites{
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px solid black;
+	padding-left: 60px;
+}
+
+
+/*NAVBAR */
+
+.navbar{
+	background-color: white !important;
+	padding: 0px;
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-width: thick;
+	font-family: sans-serif;
+	min-height: 7px;
+}
+
+.navbar-light .navbar-nav .nav-item{
+	border-bottom: solid;
+	border-bottom-color: white;
+}
+
+.navbar-light .navbar-nav .nav-item:hover{
+	background-color: #2B3856;
+	font-family: sans-serif;
+	color: white;
+	border-bottom: solid;
+	border-bottom-color: #1FABB5;
+}
+
+#red{
+	color: blue;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-weight: bold;
+	  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+.navbar-toggler{
+	border: none;
+	margin-left: 0;
+}
+
+
+/* DROPDOWN */
+.dropdown-menu{
+	padding: 0;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.navbar-light .navbar-nav > #navbarDropdownMenuLink: hover {
+  background-color: #2B3856 !important;
+	color: white !important;
+	border-bottom-color: #1FABB5;
+}
+
+.dropdown-menu > li:hover{
+	background-color: lightgrey;
+}
+
+
+.dropdown-submenu {
+    position:relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top:3px;
+    left:100%;
+    margin-top:-1px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+
+.dropdown-menu{
+		border-radius: 0px;
+		position: absolute;
+		right: 0;
+		left:0;
+		background-color: #F5F5F5;
+		min-width: 1rem;
+		width: 130px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover{
+		background-color: lightgray;
+}
+
+.nav-item dropdown:hover{
+		background-color: lightgray !important;
+}
+
+/* PRODUCTS */
+
+.products-ul{
+	display: flex;
+}
+
+
+.products img{
+	width: 50px;
+	height: auto;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+	left: 0;
+	width: 100%;
+	background-color: #B5C2CA;
+	color: white;
+	text-align: center;
+
+}
+
+.big-letters{
+	padding-left: 0;
+	text-align: left;
+}
+
+.footer-ul{
+	padding-left: 0;
+}
+
+.footer-ul li{
+	list-style-type: none;
+	text-align: left;
+	margin-left: 1em;
+}
+
+.col-sm-1{
+	text-align: center;
+}
+
+
